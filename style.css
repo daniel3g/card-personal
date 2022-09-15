@@ -7,6 +7,11 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
     background-color: #efefed;
     font-family: 'Roboto', sans-serif;
 }
@@ -17,7 +22,6 @@ body {
     align-items: center;
     width: 340px;
     height: 580px;
-    margin: 10px auto;
     background-color: #2D364C;
     padding: 10px;
     border-radius: 12px;
